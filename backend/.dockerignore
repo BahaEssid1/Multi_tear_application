@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.env.local
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+docs/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cache
+.cache/
+pytest_cache/
+
+# Docker
+Dockerfile
+docker-compose.yml
