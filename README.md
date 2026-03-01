@@ -94,8 +94,23 @@ docker-compose ps
 - All services show **Up**
 - Backend shows **(healthy)**
 
-📸 *<img width="1552" height="208" alt="40" src="https://github.com/user-attachments/assets/a0fc54c7-56eb-477b-a48f-6c6b3e2db2b7" />
-*
+📸 <img width="1552" height="208" alt="40" src="https://github.com/user-attachments/assets/a0fc54c7-56eb-477b-a48f-6c6b3e2db2b7" />
+
+### Verify connectivity between backend and databse
+
+### Command
+
+```bash
+docker logs inventory_backend
+```
+
+```bash
+docker exec -it inventory_backend sh
+```
+```bash
+ping database
+```
+📸 <img width="827" height="322" alt="2" src="https://github.com/user-attachments/assets/edfa2897-e6da-4e4b-8c91-d6465f81ce45" />
 
 ---
 
