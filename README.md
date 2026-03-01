@@ -1,10 +1,10 @@
-# 📦 DevOps Multi-Tier Inventory System (Docker + FastAPI + PostgreSQL)
+# 📦 DevOps Multi-Tier Inventory System (Docker + FastAPI + React + PostgreSQL)
 
 ## 📖 Project Description
 
 This project is a **multi-tier inventory management system** developed using:
 
-- **Frontend:** HTML + Nginx  
+- **Frontend:** React + Nginx  
 - **Backend:** FastAPI (Python)  
 - **Database:** PostgreSQL  
 - **Containerization:** Docker & Docker Compose  
@@ -29,7 +29,7 @@ We created:
 
 ### 🔹 Frontend Service
 
-- Served using **Nginx**
+- Served using **React**
 - Exposed on port `8080`
 - Connected only to `frontend-network`
 - Fetches data from backend API
@@ -94,7 +94,8 @@ docker-compose ps
 - All services show **Up**
 - Backend shows **(healthy)**
 
-📸 *(Insert Screenshot #1 here)*
+📸 *<img width="1552" height="208" alt="40" src="https://github.com/user-attachments/assets/a0fc54c7-56eb-477b-a48f-6c6b3e2db2b7" />
+*
 
 ---
 
